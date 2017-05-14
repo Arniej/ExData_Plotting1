@@ -45,5 +45,5 @@ with(subsetdata, plot(Time, Global_reactive_power,type="l", xlab="datetime",
 
 ##Create png file
 
-##dev.copy(png,'plot4.png',  width = 480, height = 480)
-##dev.off()
+dev.copy(png,'plot4.png',  width = 480, height = 480)
+dev.off()
